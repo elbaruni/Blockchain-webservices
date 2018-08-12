@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-webservice",
+  "version": "1.0.0",
+  "description": "This is a simple project using webservice to consum private blockchain backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbaruni/Blockchain-webservices.git"
+  },
+  "author": "Elbaruni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elbaruni/Blockchain-webservices/issues"
+  },
+  "homepage": "https://github.com/elbaruni/Blockchain-webservices#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "level": "^4.0.0"
+  }
+}
