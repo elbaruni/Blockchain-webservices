@@ -5,7 +5,8 @@
    - Expressjs
    - level
    - crypto-js
-	
+## Install command
+  to install prerequisites   run  `npm install`	
 ## Start command
   to start the application run  `npm start` or `node server.js`
 ## server.js
