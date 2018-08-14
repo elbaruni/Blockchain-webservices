@@ -1,4 +1,4 @@
-﻿/* ===== SHA256 with Crypto-js ===============================
+/* ===== SHA256 with Crypto-js ===============================
 |  Learn more: Crypto-js: https://github.com/brix/crypto-js  |
 |  =========================================================*/
 
@@ -107,8 +107,8 @@ class Blockchain {
             // waits to get the current height
 
             let height = parseInt(await this.getBlockHeight(), 10);
-           //if Height >-1 means there is an block(s) exsist if not an Genisis-Block would be returned 
-            if (height > -1) {
+           //if Height >-1 means there is an block(s) exsist if not an Genisis-Block 
+            if (height >= 0) {
                 let prevoius_block = await this.getBlock(height);
                 console.log(prevoius_block);
                 // Block height   
